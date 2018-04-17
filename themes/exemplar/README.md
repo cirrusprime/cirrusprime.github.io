@@ -1,8 +1,8 @@
-#Exemplar
+# Exemplar
 
 This is my jekyll site template. Used for blog and project pages.
 
-#Getting Started
+# Getting Started
 
 First, make sure you have the `jekyll` and `sass` gems installed. In your terminal run:
 
@@ -27,6 +27,15 @@ In order to update the Bourbon folder:
 
     cd _sass/
     bourbon update
-    
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tybenz/exemplar/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
+# Screenshots
+
+From [the demo site](http://tybenz.github.io/exemplar/).
+
+![Header](/img/ExemplarTheme.png)
+
+![Post](/img/ExemplarTheme2.png)
+
+![Boxes and footer](/img/ExemplarTheme3.png)
