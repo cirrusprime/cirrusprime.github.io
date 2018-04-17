@@ -34,8 +34,8 @@ In order to update the Bourbon folder:
 
 From [the demo site](http://tybenz.github.io/exemplar/).
 
-![Header](/img/ExemplarTheme.png)
+![Header](./img/ExemplarTheme.png)
 
-![Post](/img/ExemplarTheme2.png)
+![Post](./img/ExemplarTheme2.png)
 
-![Boxes and footer](/img/ExemplarTheme3.png)
+![Boxes and footer](./img/ExemplarTheme3.png)
