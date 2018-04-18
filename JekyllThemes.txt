@@ -1,5 +1,12 @@
-Trading, Utterson, Lanyon Plus, Phantom, Sustain, The Plain, Resume, BlackDoc, Type, Contrast, Brume, Wangana, Exemplar, Zebra, Balzac, Lagom
+LH Sidebar Themes: BlackDoc, Lagom, Lanyon Plus, Wangana
 
+Top Menu Themes: Exemplar, Trading, Type, Utterson
+
+RH Sidebar Themes: Zebra
+
+Professional Self-Advertising Themes: Phantom, Resume, Sustain
+
+Original Shortlist: Trading, Utterson, Lanyon Plus, Phantom, Sustain, The Plain, Resume, BlackDoc, Type, Contrast, Brume, Wangana, Exemplar, Zebra, Balzac, Lagom
 
 http://jekyllthemes.org/themes/dactl/
 http://jekyllthemes.org/themes/kagami/
