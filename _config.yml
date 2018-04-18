@@ -3,7 +3,7 @@ title: JC Prime
 description: Personal pages of pointless plop
 #google_analytics:
 show_downloads: false
-theme: jekyll-theme-blackdoc
+theme: jekyll-theme-minimal
 markdown: kramdown
 
 gems:
