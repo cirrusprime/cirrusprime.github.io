@@ -1,31 +1,71 @@
-# Dependencies
-markdown:         kramdown
-highlighter:      rouge
+name: JC Prime
+title: JC Prime
+description: Personal pages of pointless plop
+#google_analytics:
+show_downloads: false
+theme: jekyll-theme-blackdoc
+markdown: kramdown
 
-# Setup
-title:            BlackDoc
-tagline:          Black Theme for Jekyll
-description:      "A two-column black theme with a scrolling sidebar. Ideal for sites requiring a master-detail layout, e.g. documentation, cheatsheets, lyrics, notes..."
-url:              https://github.com/karloespiritu/blackdoc
-baseurl:          /
-                  # the optional subpath of your site, e.g. "/my-jekyll-site/"
-                  # This will apply to all pages in your Jekyll site.
+gems:
+  - jekyll-mentions
 
-author:
-  name:           Karlo Espiritu
-  url:            https://twitter.com/karloespiritu
+# Collections
+#collections_dir: _collections
+collections:
+  code:
+    output: true
+    permalink: /:collection/:name
+    defaults:
+      - values:
+          layout: page
+  cpp:
+    output: true
+    permalink: /:collection/:name
+    defaults:
+      - values:
+          layout: page
+  dft:
+    output: true
+    permalink: /:collection/:name
+    defaults:
+      - values:
+          layout: page
+  projects:
+    output: true
+    permalink: /:collection/:name
+    defaults:
+      - values:
+          layout: page
+  python:
+    output: true
+    permalink: /:collection/:name
+    defaults:
+      - values:
+          layout: page
+  r:
+    output: true
+    permalink: /:collection/:name
+    defaults:
+      - values:
+          layout: page
+  research:
+    output: true
+    permalink: /:collection/:name
+    defaults:
+      - values:
+          layout: page
 
-paginate:         5
-# paginate_path:    '/page:num'
-                    # Or '/my-jekyll-site/page:num' if you want to move your index pages
+# Adds /blog/ in between homepage URL and year/month/day/title.html
+permalink: /blog/:year/:month/:day/:title
 
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
+# Handling reading
+include: [".htaccess", "_pages", "_posts"]
 
-# Custom vars
-version:            2.0.1
+# Pagination
+paginate: 10
 
-github:
-  repo:             https://github.com/karloespiritu/blackdoc
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
