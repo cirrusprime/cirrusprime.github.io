@@ -1,68 +1,31 @@
-name: JC Prime
-title: JC Prime
-description: Personal pages of pointless plop
-#google_analytics:
-theme: jekyll-theme-minimal
-show_downloads: false
-markdown: kramdown
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
 
-gems:
-  - jekyll-mentions
+# Setup
+title:            BlackDoc
+tagline:          Black Theme for Jekyll
+description:      "A two-column black theme with a scrolling sidebar. Ideal for sites requiring a master-detail layout, e.g. documentation, cheatsheets, lyrics, notes..."
+url:              https://github.com/karloespiritu/blackdoc
+baseurl:          /
+                  # the optional subpath of your site, e.g. "/my-jekyll-site/"
+                  # This will apply to all pages in your Jekyll site.
 
-# Collections
-#collections_dir: _collections
-collections:
-  code:
-    output: true
-    permalink: /:collection/:name
-    defaults:
-      - values:
-          layout: page
-  cpp:
-    output: true
-    permalink: /:collection/:name
-    defaults:
-      - values:
-          layout: page
-  dft:
-    output: true
-    permalink: /:collection/:name
-    defaults:
-      - values:
-          layout: page
-  projects:
-    output: true
-    permalink: /:collection/:name
-    defaults:
-      - values:
-          layout: page
-  python:
-    output: true
-    permalink: /:collection/:name
-    defaults:
-      - values:
-          layout: page
-  r:
-    output: true
-    permalink: /:collection/:name
-    defaults:
-      - values:
-          layout: page
-  research:
-    output: true
-    permalink: /:collection/:name
-    defaults:
-      - values:
-          layout: page
+author:
+  name:           Karlo Espiritu
+  url:            https://twitter.com/karloespiritu
 
-# Adds /blog/ in between homepage URL and year/month/day/title.html
-permalink: /blog/:year/:month/:day/:title
+paginate:         5
+# paginate_path:    '/page:num'
+                    # Or '/my-jekyll-site/page:num' if you want to move your index pages
 
-# Handling reading
-include: [".htaccess", "_pages", "_posts"]
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
 
-defaults:
-  - scope:
-      path: "assets/images"
-    values:
-      image: true
+# Custom vars
+version:            2.0.1
+
+github:
+  repo:             https://github.com/karloespiritu/blackdoc
