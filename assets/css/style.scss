@@ -5,4 +5,4 @@
 @import "syntax.css";
 @import "blackdoc.css";
 @import "fonts.scss";
-@import "../../_sass/cirrusprime.scss";
+@import {{ "/_sass/cirrusprime.scss" | absolute_url }};
