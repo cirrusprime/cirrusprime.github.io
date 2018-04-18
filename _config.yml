@@ -1,1 +1,68 @@
+name: JC Prime
+title: JC Prime
+description: Personal pages of pointless plop
+#google_analytics:
 theme: jekyll-theme-minimal
+show_downloads: false
+markdown: kramdown
+
+gems:
+  - jekyll-mentions
+
+# Collections
+#collections_dir: _collections
+collections:
+  code:
+    output: true
+    permalink: /:collection/:name
+    defaults:
+      - values:
+          layout: page
+  cpp:
+    output: true
+    permalink: /:collection/:name
+    defaults:
+      - values:
+          layout: page
+  dft:
+    output: true
+    permalink: /:collection/:name
+    defaults:
+      - values:
+          layout: page
+  projects:
+    output: true
+    permalink: /:collection/:name
+    defaults:
+      - values:
+          layout: page
+  python:
+    output: true
+    permalink: /:collection/:name
+    defaults:
+      - values:
+          layout: page
+  r:
+    output: true
+    permalink: /:collection/:name
+    defaults:
+      - values:
+          layout: page
+  research:
+    output: true
+    permalink: /:collection/:name
+    defaults:
+      - values:
+          layout: page
+
+# Adds /blog/ in between homepage URL and year/month/day/title.html
+permalink: /blog/:year/:month/:day/:title
+
+# Handling reading
+include: [".htaccess", "_pages", "_posts"]
+
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
