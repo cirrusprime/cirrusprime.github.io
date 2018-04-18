@@ -1,6 +1,7 @@
 name: JC Prime
 title: JC Prime
 description: Personal pages of pointless plop
+baseurl: https://cirrusprime.github.io/
 #google_analytics:
 show_downloads: false
 theme: jekyll-theme-minimal
