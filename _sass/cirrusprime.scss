@@ -161,8 +161,8 @@ tbody tr:nth-child(odd) th {
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
-  color: rgba(255, 255, 255, .5);
-  background-color: #000;
+  color: #414141;
+  background-color: #f7efe2;
   overflow: auto;
 }
 
@@ -172,21 +172,21 @@ tbody tr:nth-child(odd) th {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem;
+    width: 14rem;
     text-align: left;
   }
 }
 
 /* Sidebar links */
 .sidebar a {
-  color: #caad00;
+  color: #008dcb;
 }
 
 /* About section */
 .sidebar-about h1 {
-  color: #caad00;
+  color: #008dcb;
   margin-top: 0;
-  font-family: 'Noto Serif', serif;
+  font-family: Merriweather, 'Noto Serif', serif;
   font-size: 2.25rem;
 }
 
@@ -202,7 +202,7 @@ tbody tr:nth-child(odd) th {
 
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
-  text-decoration: underline;
+  text-decoration: underline dotted;
 }
 
 .sidebar-nav-item.active {
