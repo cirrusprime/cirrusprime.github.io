@@ -3,8 +3,8 @@ html {
 }
 
 body {
-  color: #848482;
-  background-color: #000000;
+  color: #4cb5f5;
+  background-color: #cdcdc0;
 }
 
 h1,
@@ -14,7 +14,7 @@ h4,
 h5,
 h6 {
   font-family: Merriweather;
-  color: #aaa;
+  color: #32384d;
 }
 
 h1 a,
@@ -24,26 +24,26 @@ h4 a,
 h5 a,
 h6 a {
   font-family: Merriweather;
-  color: #50585d;
+  color: #4d648d;
   font-kerning: auto;
   font-feature-settings: "kern", "liga", "dlig", "hlig", "cswh";
   font-synthesis: weight style;
 }
 
 a {
-  color: #ffeb99;
+  color: #426e86;
   transition: color ease 0.3s;
 }
 
 a:hover {
-  color: #caad00;
+  color: #217ca3;
 }
 
 .btn {
   display: inline-block;
   padding: .25rem 1rem;
   font-family: Merriweather;
-  color: #ebcb8b;
+  color: #426e86;
   border: .1rem solid #32343c;
   border-radius: .1rem;
 }
@@ -51,20 +51,20 @@ a:hover {
 .btn:hover,
 .btn:focus {
   color: #26282d;
-  background-color: #ebcb8b;
-  border-color: #ebcb8b;
+  background-color: #426e86;
+  border-color: #426e86;
 }
 
 strong,
 b {
-  color: #848471;
+  color: #2f3131;
 }
 /* Code */
 
 code {
-  color: #993030;
+  color: #265c00;
   white-space: pre-wrap;
-  background-color: #222;
+  background-color: #4f6457;
 }
 
 pre {
