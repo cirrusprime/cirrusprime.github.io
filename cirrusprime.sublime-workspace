@@ -1,0 +1,428 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sshc",
+				"ssh_config_file"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Clean up Files"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/LaTeXing.sublime-build",
+					""
+				],
+				[
+					"Packages/User/LaTeXing.sublime-build",
+					"Clean up Files"
+				]
+			],
+			[
+				"Packages/LaTeXing/LaTeX.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pan",
+		"selected_items":
+		[
+			[
+				"pan",
+				"Pandoc"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"resour",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"view re",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"open re",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"build",
+				"Build With: LaTeX - Traditional"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"depend",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"pack",
+				"Package Control: Satisfy Dependencies"
+			]
+		],
+		"width": 605.0
+	},
+	"console":
+	{
+		"height": 154.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/james/cirrusprime"
+	],
+	"file_history":
+	[
+		"/home/james/words/log/2018-02.tex",
+		"/home/james/words/log/2018-01.tex",
+		"/home/james/words/log/2017-12.tex",
+		"/home/james/words/jcprime.sty",
+		"/home/james/words/log/2018-03.tex",
+		"/home/james/words/log/00_Extras.tex",
+		"/home/james/writings/wm/WM_Isaac.txt",
+		"/home/james/words/notes/main.tex",
+		"/home/james/writings/recipes/NorwegianChristmasButterSquares.md",
+		"/home/james/words/notes/jcprime.sty",
+		"/home/james/writings/recipes/MezesKalacs.md",
+		"/home/james/words/log/2017-11.tex",
+		"/home/james/words/00_Placeholders.tex",
+		"/home/james/words/notes/0z_Glossary.tex",
+		"/home/james/bin/stats/phd/data/base/nat_cp2k_vol.ssv",
+		"/home/james/words/notes/01_Optimisation.tex",
+		"/home/james/words/notes/0z_Stuff.tex",
+		"/home/james/words/notes/0z_Bibliography.tex",
+		"/home/james/words/0y_Appendices.tex",
+		"/home/james/bin/stats/phd/output/figs/fig_comp_natvol.tex",
+		"/home/james/bin/stats/phd/data/base/nat_ambient_gulp.csv",
+		"/home/james/words/notes/01_CompChem.tex",
+		"/home/james/words/00_Removed.tex",
+		"/home/james/words/structure_tables_sco.tex",
+		"/home/james/words/main.tex",
+		"/home/james/words/0z_Bibliography.tex",
+		"/home/james/words/WM_Completed.txt",
+		"/home/james/words/WorkingMemory.txt",
+		"/home/james/words/0x_ResubmissionFULL.tex",
+		"/home/james/words/0x-02_Hypothesis.tex",
+		"/home/james/words/0x-01_Expt.tex",
+		"/home/james/words/structure_tables.tex",
+		"/home/james/words/outline.md",
+		"/home/james/bin/python/depydrate/depydrate.py",
+		"/home/james/bin/python/depydrate/definitions.py",
+		"/home/james/words/outline.tex",
+		"/home/james/.config/sublime-text-3/Packages/Terminal/Default (Linux).sublime-keymap",
+		"/home/james/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/james/words/jcprime.",
+		"/home/soft/words/0x_Resubmission.tex",
+		"/home/soft/words/0x-03_GULP.tex",
+		"/home/soft/words/0x-03_CP2K.tex",
+		"/home/soft/words/0x-03_Dehydrate.tex",
+		"/home/soft/words/0x-03_GULPvsCP2K.tex",
+		"/home/soft/words/log/2017-10.tex",
+		"/home/soft/words/log/2017-09.tex",
+		"/home/soft/words/log/2017-08.tex",
+		"/home/james/words/expt_scolecite.csv",
+		"/home/james/words/expt_mesolite.ssv",
+		"/home/james/words/words.sublime-project",
+		"/home/james/words/log/2017-06.tex",
+		"/home/james/words/0x-03_Methodology.tex",
+		"/home/james/words/posters/latex/SecondYearPoster_Landscape_a0posterClass.tex",
+		"/home/soft/words/log/main.tex",
+		"/home/soft/words/log/2017-02.tex",
+		"/home/soft/words/notes/main.tex",
+		"/home/soft/.config/sublime-text-3/Packages/User/ThemeThings/SyntaxHighlighting/CoolFluffed.tmTheme",
+		"/home/soft/words/WorkingMemory.txt",
+		"/home/soft/.config/sublime-text-3/Packages/User/Color Highlighter/themes/CoolFluffed.tmTheme",
+		"/home/soft/.config/sublime-text-3/Packages/User/Plain text.sublime-settings",
+		"/home/soft/words/log/2017-03.tex",
+		"/home/soft/words/log/2016-10.tex",
+		"/home/soft/words/log/2016-09.tex",
+		"/home/soft/words/log/2016-08.tex",
+		"/home/soft/words/log/2016-07.tex",
+		"/home/soft/words/log/2016-06.tex",
+		"/home/soft/words/log/2016-05.tex",
+		"/home/soft/.config/sublime-text-3/Packages/Default/Preferences (Linux).sublime-settings",
+		"/home/soft/words/01_Introduction.tex",
+		"/home/soft/words/01-03_OtherStuff.tex",
+		"/home/soft/words/0y_Appendices.tex",
+		"/home/soft/words/scol.inp",
+		"/home/soft/words/MSciReportForReference.tex",
+		"/home/soft/words/05_PlanTimetable.tex",
+		"/home/soft/words/01-05_ResearchQuestions.tex",
+		"/home/soft/words/02-02_NatroliteFamilyStructure.tex",
+		"/home/soft/words/02-05_ModellingTechniques.tex",
+		"/home/soft/words/02-06_LocalOptimisationTechniques.tex",
+		"/home/soft/words/03-01_IPModelsUsingGULP.tex",
+		"/home/soft/words/03-02_Dehydrate.tex",
+		"/home/soft/words/03-03_CP2K.tex",
+		"/home/soft/words/04-01_ReproductionOfNATs.tex",
+		"/home/soft/words/04_ResultsDiscussion.tex",
+		"/home/soft/words/01-03_OtherMineralsOfInterest.tex",
+		"/home/soft/words/log/2015-11.tex",
+		"/home/soft/words/log/2015-12.tex",
+		"/home/soft/words/log/2016-01.tex",
+		"/home/soft/words/log/2016-02.tex",
+		"/home/soft/words/log/2016-03.tex",
+		"/home/soft/words/log/2016-04.tex",
+		"/home/soft/words/log/2015-10.tex",
+		"/home/soft/words/log/2016-11.tex",
+		"/home/soft/words/log/2016-12.tex",
+		"/home/soft/words/log/2017-01.tex",
+		"/home/soft/words/log/2017-04.tex",
+		"/home/soft/words/log/2017-05.tex",
+		"/home/soft/words/log/2017-06.tex",
+		"/home/soft/words/log/2017-07.tex",
+		"/home/soft/words/log/2017-11.tex",
+		"/home/soft/words/log/2017-12.tex",
+		"/home/soft/words/log/2018-01.tex",
+		"/home/soft/words/log/2018-02.tex",
+		"/home/soft/words/log/2018-03.tex",
+		"/home/soft/words/log/2018-04.tex",
+		"/home/soft/words/log/2018-05.tex",
+		"/home/soft/words/log/2018-06.tex",
+		"/home/soft/words/log/2018-07.tex",
+		"/home/soft/words/log/2018-08.tex",
+		"/home/soft/words/log/2018-09.tex",
+		"/home/soft/words/02-07_GlobalOptimisationTechniques.tex",
+		"/home/soft/words/ZeolitesIntro.pdf",
+		"/home/soft/words/graphics/scol_current/scol12_N10.jpg",
+		"/home/soft/words/graphics/scol_orig/sco_11.jpg",
+		"/home/soft/words/main.log",
+		"/home/soft/words/thesis/MainPackages.tex",
+		"/home/soft/words/03_Methodology.tex",
+		"/home/soft/words/03-04_Scripts.tex",
+		"/home/soft/words/00_Preamble.tex",
+		"/home/soft/.config/sublime-text-3/Packages/User/LaTeXing.sublime-settings",
+		"/home/soft/words/graphics/leo_ambient/leo04_N1.jpg",
+		"/home/soft/words/graphics/mes_current/mes02_N38.jpg",
+		"/home/soft/words/graphics/mes_current/mes05_N40.jpg",
+		"/home/soft/words/graphics/mes_current/mes10_N50.jpg",
+		"/home/soft/words/graphics/mes_current/mes15_N42.jpg",
+		"/home/soft/words/graphics/nat_current/nat07_N4.jpg",
+		"/home/soft/words/graphics/scol_orig/sco_12.jpg",
+		"/home/soft/words/gulp4.2_manual.pdf",
+		"/home/soft/words/log/PhD_Log.tex"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 99.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 115.0
+	},
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 115.0
+	},
+	"pinned_build_system": "",
+	"project": "cirrusprime.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 234.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
