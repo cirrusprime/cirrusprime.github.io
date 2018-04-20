@@ -3,8 +3,8 @@ html {
 }
 
 body {
-  color: #2f3131;
-  background-color: #f0f6ff;
+  color: #333;
+  background-color: #fafafa;
 }
 
 h1,
@@ -14,7 +14,7 @@ h4,
 h5,
 h6 {
   font-family: Merriweather;
-  color: #2f3131;
+  color: #333;
 }
 
 h1 a,
@@ -60,16 +60,17 @@ strong,
 b {
   color: #2f3131;
 }
-/* Code */
 
+/* Code */
 code {
-  color: #265c00;
+  color: #00379f;
   white-space: pre-wrap;
-  background-color: #cdcdc0;
+  background-color: #eee;
 }
 
-pre {
-  background-color: #cdcdc0;
+pre,
+.highlighter-rouge {
+  background-color: #eee;
 }
 
 pre {
@@ -94,12 +95,12 @@ blockquote {
 td,
 th {
   padding: .25rem .5rem;
-  border: 1px solid #cdcdc0;
+  border: 1px solid #e6e6e6;
 }
 
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
-  background-color: #cdcdc0;
+  background-color: #e6e6e6;
 }
 
 /* Pagination items can be `span`s or `a`s */
@@ -162,7 +163,7 @@ tbody tr:nth-child(odd) th {
   text-align: center;
   padding: 2rem 1rem;
   color: #414141;
-  background-color: #f0f6ff;
+  background-color: #fafafa;
   overflow: auto;
   border-right: 3px solid #ffbb00;
 }
