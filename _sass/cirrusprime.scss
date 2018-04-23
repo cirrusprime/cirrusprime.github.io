@@ -23,7 +23,8 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-  font-family: Merriweather;
+  font-family: 'Wild Youth';
+  // font-size: 60px;
   color: #217ca3;
   font-kerning: auto;
   font-feature-settings: "kern", "liga", "dlig", "hlig", "cswh";
@@ -152,6 +153,44 @@ tbody tr:nth-child(odd) th {
   background-color: #222 !important;
 }
 
+/* Header text */
+
+.header-text {
+  text-align: center;
+  color: #008dcb;
+  overflow: auto;
+  // position: fixed;
+  background-color: transparent;
+
+  h1 {
+    display: inline-block;
+    margin: 0 0 0 0;
+    // margin-bottom: 1rem;
+    // margin-left: 2rem;
+    transform: rotate(-5deg);
+
+    a {
+      font-family: 'Playfair Display';
+      // font-family: 'Quentin';
+      font-size: 50pt;
+      font-weight: bolder;
+    }
+  }
+}
+
+@media (min-width: 48em) {
+  .header-text {
+    // display: block;
+    max-height: 8rem;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 1rem 2rem;
+    // width: 22rem;
+    text-align: left;
+  }
+}
+
 /*
  * Sidebar
  *
@@ -165,17 +204,31 @@ tbody tr:nth-child(odd) th {
   color: #414141;
   background-color: #fafafa;
   overflow: auto;
-  border-right: 3px solid #ffbb00;
+  // border-right: 3px solid #ffbb00;
+  border-right-width: 3px;
+  border-right-style: solid;
+  border-right-color: #ffbb00;
+  border-image: linear-gradient(#fafafa, #ffbb00, #ffbb00, #ffbb00, #ffbb00, #ffbb00, #fafafa) 0 50 0 0;
+  // -webkit-border-right-image: -webkit-gradient(linear, 0 0, 0 100%, from(black), to(rgba(0, 0, 0, 0))) 1 100%;
+  // -webkit-border-right-image: -webkit-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
+  // -moz-border-right-image: -moz-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%; -o-border-image: -o-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
 }
 
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
+    margin-top: 7rem;
     top: 0;
     left: 0;
     bottom: 0;
     width: 16rem;
     text-align: left;
+
+    p.lead {
+      color: #474a51;
+      font-family: 'Novitha Script';
+      font-size: 30pt;
+    }
   }
 }
 
@@ -219,7 +272,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .sidebar-sticky {
-    /*    position: absolute;*/
+    /* position: absolute;*/
     right: 1rem;
     bottom: 1rem;
     left: 1rem;
@@ -233,7 +286,7 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top: 4rem;
+  padding-top: 1rem;
   padding-bottom: 4rem;
   padding-left: 4rem;
   padding-right: 14rem;
