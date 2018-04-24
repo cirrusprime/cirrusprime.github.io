@@ -831,8 +831,6 @@
     src: url('../fonts/JH2TRIAL.ttf');
 }*/
 
-/* GOT TO HERE */
-
 @font-face {
     font-family: 'Novitha Script';
     src: url('../fonts/NovithaScript-Demo.otf');
@@ -844,51 +842,51 @@
     src: url('../fonts/RockSalt-Regular.ttf');
 }
 
-@font-face {
-    font-family: 'Sketch Rockwell Bold';
+/*@font-face {
+    font-family: 'Sketch Rockwell';
     src: url('../fonts/SketchRockwell-Bold.ttf');
     font-weight: bold;
-}
+}*/
 
-@font-face {
+/*@font-face {
     font-family: 'Sketchvetica';
     src: url('../fonts/Sketchvetica.ttf');
-}
+}*/
 
 @font-face {
     font-family: 'Strike One';
     src: url('../fonts/StrikeOne.otf');
     src: url('../fonts/StrikeOne.ttf');
-    src: url('../fonts/StrikeOneSwash.eps');
+    /*src: url('../fonts/StrikeOneSwash.eps');*/
 }
 
-@font-face {
+/*@font-face {
     font-family: 'Trashco';
     src: url('../fonts/Trashco.ttf');
-}
+}*/
 
-@font-face {
-    font-family: 'annie';
+/*@font-face {
+    font-family: 'Annie';
     src: url('../fonts/annie.ttf');
-}
+}*/
 
-@font-face {
-    font-family: 'ashleerenee';
+/*@font-face {
+    font-family: 'Ashlee Renee';
     src: url('../fonts/ashleerenee.ttf');
-}
+}*/
 
-@font-face {
+/*@font-face {
     font-family: 'BlackJack';
     src: url('../fonts/BlackJack.ttf');
-}
+}*/
 
-@font-face {
-    font-family: 'dag';
+/*@font-face {
+    font-family: 'Dag';
     src: url('../fonts/dag.ttf');
-}
+}*/
 
 @font-face {
-    font-family: 'deigh';
+    font-family: 'Deigh';
     src: url('../fonts/deigh.ttf');
 }
 
@@ -897,37 +895,37 @@
     src: url('../fonts/Journal.ttf');
 }
 
-@font-face {
-    font-family: 'kikichan';
+/*@font-face {
+    font-family: 'Kikichan';
     src: url('../fonts/kikichan.ttf');
-}
+}*/
 
-@font-face {
-    font-family: 'lopez';
+/*@font-face {
+    font-family: 'Lopez';
     src: url('../fonts/lopez.ttf');
-}
+}*/
 
 @font-face {
-    font-family: 'MawnsHandwriting';
+    font-family: 'Mawns Handwriting';
     src: url('../fonts/MawnsHandwriting.ttf');
 }
 
 @font-face {
-    font-family: 'max';
+    font-family: 'Max';
     src: url('../fonts/max.ttf');
 }
 
 @font-face {
-    font-family: 'memorable';
+    font-family: 'Memorable';
     src: url('../fonts/memorable.ttf');
 }
 
-@font-face {
-    font-family: 'molly';
+/*@font-face {
+    font-family: 'Molly';
     src: url('../fonts/molly.ttf');
-}
+}*/
 
 @font-face {
-    font-family: 'virginia';
+    font-family: 'Virginia';
     src: url('../fonts/virginia.ttf');
 }
