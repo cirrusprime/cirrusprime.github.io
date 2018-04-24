@@ -13,7 +13,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Merriweather;
+  font-family: 'Playfair Display';
   color: #333;
 }
 
@@ -23,7 +23,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-  font-family: 'Wild Youth';
+  font-family: 'Playfair Display';
   // font-size: 60px;
   color: #217ca3;
   font-kerning: auto;
@@ -161,7 +161,7 @@ tbody tr:nth-child(odd) th {
   overflow: auto;
   position: fixed;
   // background-color: transparent;
-  // background-image: linear-gradient(#fafafa, rgba(255, 255, 255, 0));
+  // background-image: linear-gradient(to bottom, #fafafa, rgba(255, 255, 255, 0));
 
   h1 {
     display: inline-block;
@@ -171,9 +171,10 @@ tbody tr:nth-child(odd) th {
     transform: rotate(-5deg);
 
     a {
+      // font-family: 'Novitha Script';
       font-family: 'Playfair Display';
       // font-family: 'Quentin';
-      font-size: 50pt;
+      font-size: 3rem;
       font-weight: bolder;
     }
   }
@@ -201,7 +202,7 @@ tbody tr:nth-child(odd) th {
 
 .sidebar {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem 2rem 1rem;
   color: #414141;
   background-color: #fafafa;
   overflow: auto;
@@ -218,7 +219,7 @@ tbody tr:nth-child(odd) th {
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
-    margin-top: 7rem;
+    margin-top: 6rem;
     top: 0;
     left: 0;
     bottom: 0;
@@ -227,9 +228,10 @@ tbody tr:nth-child(odd) th {
 
     p.lead {
       color: #474a51;
-      font-family: 'Novitha Script';
-      font-size: 40pt;
-      line-height: 0.9;
+      font-family: 'Rock Salt';
+      // font-family: 'BlackJack';
+      font-size: 1rem;
+      // line-height: 0.9;
     }
   }
 }
