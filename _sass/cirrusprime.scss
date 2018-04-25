@@ -9,6 +9,7 @@ html {
 body {
   color: #333;
   background-color: #fafafa;
+  font-size: 18px;
 }
 
 h1,
@@ -19,6 +20,7 @@ h5,
 h6 {
   font-family: 'Playfair Display';
   color: #333;
+  margin-top: 1rem;
 }
 
 h1 a,
@@ -29,19 +31,43 @@ h5 a,
 h6 a {
   font-family: 'Playfair Display';
   // font-size: 60px;
-  color: #009cd8;
+  color: #0280ff;
   font-kerning: auto;
   font-feature-settings: "kern", "liga", "dlig", "hlig", "cswh";
   font-synthesis: weight style;
 }
 
+h1 {
+  font-size: 2.369rem;
+}
+
+h2 {
+  font-size: 1.777rem;
+}
+
+h3 {
+  font-size: 1.555rem;
+}
+
+h4 {
+  font-size: 1.333rem;
+}
+
+h5 {
+  font-size: 1.167rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
 a {
-  color: #009cd8;
+  color: #0280ff;
   transition: color ease 0.3s;
 }
 
 a:hover {
-  color: #009cd8;
+  color: #0280ff;
   text-decoration: underline dotted;
 }
 
@@ -161,7 +187,7 @@ tbody tr:nth-child(odd) th {
 
 .header-text {
   text-align: center;
-  color: #009cd8;
+  color: #0280ff;
   overflow: auto;
   position: fixed;
   // background-color: transparent;
@@ -242,12 +268,12 @@ tbody tr:nth-child(odd) th {
 
 /* Sidebar links */
 .sidebar a {
-  color: #009cd8;
+  color: #0280ff;
 }
 
 /* About section */
 .sidebar-about h1 {
-  color: #009cd8;
+  color: #0280ff;
   margin-top: 0;
   font-family: Merriweather, 'Noto Serif', serif;
   font-size: 2.25rem;
@@ -261,6 +287,7 @@ tbody tr:nth-child(odd) th {
 .sidebar-nav-item {
   display: block;
   line-height: 1.75;
+  font-size: 1.3rem;
 }
 
 a.sidebar-nav-item:hover,
@@ -326,7 +353,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  color: #f8ef00;
+  color: #ffbb00;
 }
 
 /*
