@@ -1,6 +1,9 @@
 html {
   font-family: 'Latin Modern Roman', Georgia, 'PT Serif', Merriweather;
   font-variant-numeric: lining-nums;
+  -moz-font-feature-settings: "lnum";
+  -webkit-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
 }
 
 body {
