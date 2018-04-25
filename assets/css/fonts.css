@@ -1,165 +1,7 @@
-/*@font-face {
-    font-family: 'Merriweather';
-    src: url('../fonts/Merriweather-Black.eot');
-    src: url('../fonts/Merriweather-Black.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Merriweather-Black.woff') format('woff'),
-         url('../fonts/Merriweather-Black.ttf') format('truetype'),
-         url('../fonts/Merriweather-Black.svg#MerriweatherBlack') format('svg');
-    font-weight: black;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Merriweather';
-    src: url('../fonts/Merriweather-BlackItalic.eot');
-    src: url('../fonts/Merriweather-BlackItalic.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Merriweather-BlackItalic.woff') format('woff'),
-         url('../fonts/Merriweather-BlackItalic.ttf') format('truetype'),
-         url('../fonts/Merriweather-BlackItalic.svg#MerriweatherBlackItalic') format('svg');
-    font-weight: black;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Merriweather';
-    src: url('../fonts/Merriweather-Bold.eot');
-    src: url('../fonts/Merriweather-Bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Merriweather-Bold.woff') format('woff'),
-         url('../fonts/Merriweather-Bold.ttf') format('truetype'),
-         url('../fonts/Merriweather-Bold.svg#MerriweatherBold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Merriweather';
-    src: url('../fonts/Merriweather-BoldItalic.eot');
-    src: url('../fonts/Merriweather-BoldItalic.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Merriweather-BoldItalic.woff') format('woff'),
-         url('../fonts/Merriweather-BoldItalic.ttf') format('truetype'),
-         url('../fonts/Merriweather-BoldItalic.svg#MerriweatherBoldItalic') format('svg');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Merriweather';
-    src: url('../fonts/Merriweather-Italic.eot');
-    src: url('../fonts/Merriweather-Italic.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Merriweather-Italic.woff') format('woff'),
-         url('../fonts/Merriweather-Italic.ttf') format('truetype'),
-         url('../fonts/Merriweather-Italic.svg#MerriweatherItalic') format('svg');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Merriweather';
-    src: url('../fonts/Merriweather-Regular.eot');
-    src: url('../fonts/Merriweather-Regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Merriweather-Regular.woff') format('woff'),
-         url('../fonts/Merriweather-Regular.ttf') format('truetype'),
-         url('../fonts/Merriweather-Regular.svg#MerriweatherRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Merriweather';
-    src: url('../fonts/Merriweather-Light.eot');
-    src: url('../fonts/Merriweather-Light.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Merriweather-Light.woff') format('woff'),
-         url('../fonts/Merriweather-Light.ttf') format('truetype'),
-         url('../fonts/Merriweather-Light.svg#MerriweatherLight') format('svg');
-    font-weight: light;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Merriweather';
-    src: url('../fonts/Merriweather-LightItalic.eot');
-    src: url('../fonts/Merriweather-LightItalic.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Merriweather-LightItalic.woff') format('woff'),
-         url('../fonts/Merriweather-LightItalic.ttf') format('truetype'),
-         url('../fonts/Merriweather-LightItalic.svg#MerriweatherLightItalic') format('svg');
-    font-weight: light;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Quattrocento Sans';
-    src: url('../fonts/quattrocentosans-bold-webfont.eot');
-    src: url('../fonts/quattrocentosans-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/quattrocentosans-bold-webfont.woff') format('woff'),
-         url('../fonts/quattrocentosans-bold-webfont.ttf') format('truetype'),
-         url('../fonts/quattrocentosans-bold-webfont.svg#QuattrocentoSansBold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Quattrocento Sans';
-    src: url('../fonts/quattrocentosans-bolditalic-webfont.eot');
-    src: url('../fonts/quattrocentosans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/quattrocentosans-bolditalic-webfont.woff') format('woff'),
-         url('../fonts/quattrocentosans-bolditalic-webfont.ttf') format('truetype'),
-         url('../fonts/quattrocentosans-bolditalic-webfont.svg#QuattrocentoSansBoldItalic') format('svg');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Quattrocento Sans';
-    src: url('../fonts/quattrocentosans-italic-webfont.eot');
-    src: url('../fonts/quattrocentosans-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/quattrocentosans-italic-webfont.woff') format('woff'),
-         url('../fonts/quattrocentosans-italic-webfont.ttf') format('truetype'),
-         url('../fonts/quattrocentosans-italic-webfont.svg#QuattrocentoSansItalic') format('svg');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Quattrocento Sans';
-    src: url('../fonts/quattrocentosans-regular-webfont.eot');
-    src: url('../fonts/quattrocentosans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/quattrocentosans-regular-webfont.woff') format('woff'),
-         url('../fonts/quattrocentosans-regular-webfont.ttf') format('truetype'),
-         url('../fonts/quattrocentosans-regular-webfont.svg#QuattrocentoSansRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Copse';
-    src: url('../fonts/copse-regular-webfont.eot');
-    src: url('../fonts/copse-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/copse-regular-webfont.woff') format('woff'),
-         url('../fonts/copse-regular-webfont.ttf') format('truetype'),
-         url('../fonts/copse-regular-webfont.svg#CopseRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}*/
-
-/*@font-face {
-    font-family: 'Abril Fatface';
-    src: url('../fonts/AbrilFatface-Regular.ttf');
-}*/
-
-/*@font-face {
-    font-family: 'MounTiane';
-    src: url('../fonts/ADLMounTiane.otf');
-}*/
-
 @font-face {
     font-family: 'Antro Vectra';
     src: url('../fonts/Antro_Vectra.otf');
 }
-
-/*@font-face {
-    font-family: 'Bilbo';
-    src: url('../fonts/Bilbo-Regular.otf');
-}*/
 
 @font-face {
     font-family: 'Bilbo Swash Caps';
@@ -215,66 +57,6 @@
     font-style: normal;
 }
 
-/*@font-face {
-    font-family: 'Butler Stencil';
-    src: url('../fonts/Butler_Black_Stencil.otf');
-    font-weight: black;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Butler Stencil';
-    src: url('../fonts/Butler_Bold_Stencil.otf');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Butler Stencil';
-    src: url('../fonts/Butler_ExtraBold_Stencil.otf');
-    font-weight: 800;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Butler Stencil';
-    src: url('../fonts/Butler_Light_Stencil.otf');
-    font-weight: light;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Butler Stencil';
-    src: url('../fonts/Butler_Medium_Stencil.otf');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Butler Stencil';
-    src: url('../fonts/Butler_Regular_Stencil.otf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Butler Stencil';
-    src: url('../fonts/Butler_Ultra_Light_Stencil.otf');
-    font-weight: 100;
-    font-style: normal;
-}*/
-
-/*@font-face {
-    font-family: 'Carosello';
-    src: url('../fonts/Carosello-Regular.otf');
-    src: url('../fonts/Carosello-Regular.ttf');
-}*/
-
-/*@font-face {
-    font-family: 'Casual';
-    src: url('../fonts/Casual-Regular.ttf');
-}*/
-
 @font-face {
     font-family: 'Desire Extras';
     src: url('../fonts/DesireScriptEXTRAS.otf');
@@ -290,11 +72,6 @@
     src: url('../fonts/DreamOnly.otf');
     src: url('../fonts/DreamOnly.ttf');
 }
-
-/*@font-face {
-    font-family: 'Fertigo Pro';
-    src: url('../fonts/Fertigo_PRO.otf');
-}*/
 
 @font-face {
     font-family: 'Fontin';
@@ -317,29 +94,6 @@
     font-style: normal;
 }
 
-/*@font-face {
-    font-family: 'Fontin Small Caps';
-    src: url('../fonts/Fontin-SmallCaps.ttf');
-}*/
-
-/*@font-face {
-    font-family: 'Fusterd Bonus';
-    src: url('../fonts/FusterdBonus.otf');
-    src: url('../fonts/FusterdBonus.ttf');
-}
-
-@font-face {
-    font-family: 'Fusterd Brush';
-    src: url('../fonts/FusterdBrush.otf');
-    src: url('../fonts/FusterdBrush.ttf');
-}
-
-@font-face {
-    font-family: 'Fusterd Brush Two';
-    src: url('../fonts/FusterdBrushTwo.otf');
-    src: url('../fonts/FusterdBrushTwo.ttf');
-}*/
-
 @font-face {
     font-family: 'Hello Stockholm';
     src: url('../fonts/HelloStockholm-Alt.otf');
@@ -356,11 +110,6 @@
     font-style: normal;
 }
 
-/*@font-face {
-    font-family: 'Hello Stranger';
-    src: url('../fonts/HelloStranger.otf');
-}*/
-
 @font-face {
     font-family: 'Highlander';
     src: url('../fonts/Highlander.otf');
@@ -371,11 +120,6 @@
     font-family: 'High Tide';
     src: url('../fonts/HighTide-Demo.ttf');
 }
-
-/*@font-face {
-    font-family: 'Houndville';
-    src: url('../fonts/Houndville.ttf');
-}*/
 
 @font-face {
     font-family: 'La Guapita';
@@ -416,26 +160,10 @@
     src: url('../fonts/MarkMyWords.ttf');
 }
 
-/*@font-face {
-    font-family: 'Markona';
-    src: url('../fonts/Markona.ttf');
-}*/
-
 @font-face {
     font-family: 'Medio';
     src: url('../fonts/Medio.otf');
 }
-
-/*@font-face {
-    font-family: 'Moonlights on the Beach';
-    src: url('../fonts/MoonlightsontheBeach.ttf');
-}*/
-
-/*@font-face {
-    font-family: 'Notera';
-    src: url('../fonts/Notera.otf');
-    src: url('../fonts/Notera.ttf');
-}*/
 
 @font-face {
     font-family: 'Novar';
@@ -670,17 +398,6 @@
     src: url('../fonts/Wanderlove.ttf');
 }
 
-/*@font-face {
-    font-family: 'Wild Youth';
-    src: url('../fonts/WildYouth.ttf');
-    src: url('../fonts/WildYouth.otf');
-}*/
-
-/*@font-face {
-    font-family: 'Fauna One';
-    src: url('../fonts/FaunaOne-Regular.ttf');
-}*/
-
 @font-face {
     font-family: 'Libre Baskerville';
     src: url('../fonts/LibreBaskerville-Bold.ttf');
@@ -718,11 +435,6 @@
     font-family: 'Marana';
     src: url('../fonts/Marana Regular.otf');
 }
-
-/*@font-face {
-    font-family: 'Markona';
-    src: url('../fonts/Markona.ttf');
-}*/
 
 @font-face {
     font-family: 'Playfair Display';
@@ -790,47 +502,6 @@
     font-style: normal;
 }
 
-/*@font-face {
-    font-family: 'Abusive Pencil';
-    src: url('../fonts/AbusivePencil.ttf');
-}*/
-
-/*@font-face {
-    font-family: 'Bonfire';
-    src: url('../fonts/Bonfire-Regular.otf');
-}*/
-
-/*@font-face {
-    font-family: 'Channel Left-Slanted';
-    src: url('../fonts/Channel_Left-Slanted.ttf');
-}
-
-@font-face {
-    font-family: 'Channel Slanted';
-    src: url('../fonts/Channel_Slanted1.ttf');
-}
-
-@font-face {
-    font-family: 'Channel Slanted 2';
-    src: url('../fonts/Channel_Slanted2.ttf');
-}
-
-@font-face {
-    font-family: 'Channel';
-    src: url('../fonts/Channel.ttf');
-}*/
-
-/*@font-face {
-    font-family: 'Estrya Handwriting';
-    src: url('../fonts/EstryaHandwriting.ttf');
-}*/
-
-/*@font-face {
-    font-family: 'JH2';
-    src: url('../fonts/JH2TRIAL.otf');
-    src: url('../fonts/JH2TRIAL.ttf');
-}*/
-
 @font-face {
     font-family: 'Novitha Script';
     src: url('../fonts/NovithaScript-Demo.otf');
@@ -842,48 +513,12 @@
     src: url('../fonts/RockSalt-Regular.ttf');
 }
 
-/*@font-face {
-    font-family: 'Sketch Rockwell';
-    src: url('../fonts/SketchRockwell-Bold.ttf');
-    font-weight: bold;
-}*/
-
-/*@font-face {
-    font-family: 'Sketchvetica';
-    src: url('../fonts/Sketchvetica.ttf');
-}*/
-
 @font-face {
     font-family: 'Strike One';
     src: url('../fonts/StrikeOne.otf');
     src: url('../fonts/StrikeOne.ttf');
     /*src: url('../fonts/StrikeOneSwash.eps');*/
 }
-
-/*@font-face {
-    font-family: 'Trashco';
-    src: url('../fonts/Trashco.ttf');
-}*/
-
-/*@font-face {
-    font-family: 'Annie';
-    src: url('../fonts/annie.ttf');
-}*/
-
-/*@font-face {
-    font-family: 'Ashlee Renee';
-    src: url('../fonts/ashleerenee.ttf');
-}*/
-
-/*@font-face {
-    font-family: 'BlackJack';
-    src: url('../fonts/BlackJack.ttf');
-}*/
-
-/*@font-face {
-    font-family: 'Dag';
-    src: url('../fonts/dag.ttf');
-}*/
 
 @font-face {
     font-family: 'Deigh';
@@ -894,16 +529,6 @@
     font-family: 'Journal';
     src: url('../fonts/Journal.ttf');
 }
-
-/*@font-face {
-    font-family: 'Kikichan';
-    src: url('../fonts/kikichan.ttf');
-}*/
-
-/*@font-face {
-    font-family: 'Lopez';
-    src: url('../fonts/lopez.ttf');
-}*/
 
 @font-face {
     font-family: 'Mawns Handwriting';
@@ -920,12 +545,51 @@
     src: url('../fonts/memorable.ttf');
 }
 
-/*@font-face {
-    font-family: 'Molly';
-    src: url('../fonts/molly.ttf');
-}*/
-
 @font-face {
     font-family: 'Virginia';
     src: url('../fonts/virginia.ttf');
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman';
+    src: url('../fonts/lmroman-bolditalic-webfont.eot');
+    src: url('../fonts/lmroman-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lmroman-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/lmroman-bolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/lmroman-bolditalic-webfont.svg#latin_modern_roman10BdIt') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman';
+    src: url('../fonts/lmroman-bold-webfont.eot');
+    src: url('../fonts/lmroman-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lmroman-bold-webfont.woff') format('woff'),
+         url('../fonts/lmroman-bold-webfont.ttf') format('truetype'),
+         url('../fonts/lmroman-bold-webfont.svg#latin_modern_roman10_bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman';
+    src: url('../fonts/lmroman-italic-webfont.eot');
+    src: url('../fonts/lmroman-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lmroman-italic-webfont.woff') format('woff'),
+         url('../fonts/lmroman-italic-webfont.ttf') format('truetype'),
+         url('../fonts/lmroman-italic-webfont.svg#latin_modern_roman10_italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman';
+    src: url('../fonts/lmroman-regular-webfont.eot');
+    src: url('../fonts/lmroman-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lmroman-regular-webfont.woff') format('woff'),
+         url('../fonts/lmroman-regular-webfont.ttf') format('truetype'),
+         url('../fonts/lmroman-regular-webfont.svg#latin_modern_roman10_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
