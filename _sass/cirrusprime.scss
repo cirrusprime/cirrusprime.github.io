@@ -1,5 +1,5 @@
 html {
-  font-family: 'Latin Modern Roman', Georgia, 'PT Serif', Merriweather;
+  font-family: Georgia, 'Georgia Pro', 'PT Serif', Merriweather;
   font-variant-numeric: lining-nums;
   -moz-font-feature-settings: "lnum";
   -webkit-font-feature-settings: "lnum";
@@ -29,19 +29,19 @@ h5 a,
 h6 a {
   font-family: 'Playfair Display';
   // font-size: 60px;
-  color: #217ca3;
+  color: #009cd8;
   font-kerning: auto;
   font-feature-settings: "kern", "liga", "dlig", "hlig", "cswh";
   font-synthesis: weight style;
 }
 
 a {
-  color: #217ca3;
+  color: #009cd8;
   transition: color ease 0.3s;
 }
 
 a:hover {
-  color: #217ca3;
+  color: #009cd8;
   text-decoration: underline dotted;
 }
 
@@ -161,7 +161,7 @@ tbody tr:nth-child(odd) th {
 
 .header-text {
   text-align: center;
-  color: #008dcb;
+  color: #009cd8;
   overflow: auto;
   position: fixed;
   // background-color: transparent;
@@ -242,12 +242,12 @@ tbody tr:nth-child(odd) th {
 
 /* Sidebar links */
 .sidebar a {
-  color: #008dcb;
+  color: #009cd8;
 }
 
 /* About section */
 .sidebar-about h1 {
-  color: #008dcb;
+  color: #009cd8;
   margin-top: 0;
   font-family: Merriweather, 'Noto Serif', serif;
   font-size: 2.25rem;
@@ -326,7 +326,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  color: #caad00;
+  color: #f8ef00;
 }
 
 /*
