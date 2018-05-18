@@ -65,8 +65,7 @@ For example, the *header* file, `MyClass.h`, could look like this:
 #ifndef MYCLASS_H
 #define MYCLASS_H
 
-class MyClass
-{
+class MyClass {
   public:
     MyClass();
   protected:
@@ -79,13 +78,11 @@ and the *source* file, `MyClass.cpp`, could look like this:
 ```c++
 #include "MyClass.h"
 
-MyClass::MyClass()
-{
+MyClass::MyClass() {
    // Constructor code
 }
 
-MyClass::~MyClass()
-{
+MyClass::~MyClass() {
     // Destructor code
 }
 ```
@@ -118,3 +115,89 @@ MyClass obj;
 MyClass *ptr = &obj;
 ptr->myPrint();
 ```
+
+## Constant class objects
+
+They are defined the same way as constant in-built data types, `const ClassName varname;`.  Note that all `const` objects *must* be initialised at the point of creation.
+
+### Constant class function definitions
+
+Defining constant class functions can be done by *appending* the `const` specifier to the end of the defining line:
+
+```c++
+class MyClass {
+    public:
+        void MyPrint() const;
+};
+```
+
+in the header file, and
+
+```c++
+void MyClass::MyPrint() const {
+    cout << "Hello" << endl;
+}
+```
+
+in the source file.  From this point onwards, it can be used the same way a constant builtin data type would be:
+
+```c++
+const MyClass obj;
+obj.MyPrint();
+```
+
+These cannot be changed once defined as constant.
+
+### Member initialisation lists in class constructors
+
+When working with constant class members, you can't initialise them within the constructors, as they are defined within the `private:` section, and so you need to use an initialisation list, which starts with a colon, but *does not* end with a semicolon, and looks like this:
+
+```c++
+class MyClass {
+    public:
+        // Constructor
+        MyClass(int a, int b)
+        // Initialisation list
+        : regVar(a), constVar(b) {
+        }
+    private:
+        int regVar;
+        const int constVar;
+};
+```
+
+Although you should really put the initialisation list in the source file's definition of the constructor, rather than in the header file.
+
+It is **essential** to use initialisation lists for constant variables, and is generally useful to use them for non-constant variables as well.
+
+## Compositions
+
+Classes can be made up of objects of other classes, when the parent class and subclass have a **"has-a" relationship**, in that a member of the parent class *has a* member of the subclass.
+
+## Friend functions
+
+You can declare an external function a `friend` of a class, which allows that function to have access to the private (and public, but that's kind of given anyway) members of that class.  But you have to pass objects to that function by reference, using `&`.
+
+```c++
+class MyClass {
+    public:
+        MyClass() {
+            regVar = 0;
+        }
+    private:
+        int regVar;
+
+        friend void someFunc(MyClass &obj);
+};
+
+void someFunc(MyClass &obj) {
+    obj.regVar = 42;
+    cout << obj.regVar;
+}
+```
+
+You can also define **friend classes**, which has access to the private members of another class.
+
+## The `this` pointer
+
+Every object in C++ has an intrinsic pointer to its own address, the `this` pointer.  Inside a member function `this` may be used to refer to the invoking object.  Friend functions don't have a `this` pointer, as they are not members of a class.  Useful for function overloading.
