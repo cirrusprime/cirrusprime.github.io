@@ -201,3 +201,29 @@ You can also define **friend classes**, which has access to the private members 
 ## The `this` pointer
 
 Every object in C++ has an intrinsic pointer to its own address, the `this` pointer.  Inside a member function `this` may be used to refer to the invoking object.  Friend functions don't have a `this` pointer, as they are not members of a class.  Useful for function overloading.
+
+## Operator overloading
+
+Overloading means to **redefine** a pre-defined variable or keyword, so as to use it in a different way.  For example, `+` and `-` operators can be overloaded (redefined).
+
+They are defined within class definitions via the use of `operator` followed by the operator to be overloaded, *without a space in between the two*: `operator+` will define the overloading of the `+` operator.
+
+For example:
+
+```c++
+class MyClass {
+    public:
+        int var;
+        MyClass() {}
+        MyClass(int a)
+        : var(a) { }
+
+        MyClass operator+(MyClass &obj) {
+            MyClass res;
+            res.var= this->var+obj.var;
+            return res; 
+        }
+};
+```
+
+The above overloads the `+` operator within the `MyClass` class to enable `MyClass` objects to be added together in much the same way as integers would be.
