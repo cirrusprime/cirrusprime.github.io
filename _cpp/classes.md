@@ -75,17 +75,17 @@ class MyClass
 
 #endif // MYCLASS_H
 ```
+
 and the *source* file, `MyClass.cpp`, could look like this:
+
 ```c++
 #include "MyClass.h"
 
-MyClass::MyClass()
-{
+MyClass::MyClass() {
    // Constructor code
 }
 
-MyClass::~MyClass()
-{
+MyClass::~MyClass() {
     // Destructor code
 }
 ```
