@@ -7,7 +7,7 @@ The first thought I had about the use of this for my current research area was t
 
 In contrast to compositions, inheritance works based on **is-a** relationships, where *derived class* **is-a** *base class*, and so *derived class* can inherit *base class* properties.
 
-Define a base class of a derived class using an access specifier:
+Define a base class of a derived class using an access specifier (or several, separated by commas):
 
 ```c++
 class Daughter: public Mother, public Father
@@ -17,6 +17,17 @@ class Daughter: public Mother, public Father
 };
 ```
 
-where the use of `public` specifies that all public members of the base `Mother` class are public to the derived `Daughter` class.  All base functions except constructors, destructor, overloaded functions, and friend functions are accessible from within the derived class.
+where the use of `public` specifies that all public members of the base `Mother` and `Father` classes are public to the derived `Daughter` class.  All base functions except constructors, destructors, overloaded functions, and friend functions are accessible from within the derived classes.  `private` members and member functions of the base class are not accessible to derived classes, but `protected` ones are.
+
+The default for the *inheritance-specific* access specifier (that is, the `public BaseClass` bit), if not explicitly provided, is `private`.  This is how it works:
+
+* `public`
+    * `public` members of the base class become `public` members of the derived class
+    * `protected` members of the base class become `protected` members of the derived class
+    * A base class's `private` members are never accessible directly from a derived class, but can be accessed through calls to the `public` and `protected` members of the base class
+* `protected`
+    * `public` and `protected` members of the base class become `protected` members of the derived class
+* `private`
+    * `public` and `protected` members of the base class become `private` members of the derived class
 
 
