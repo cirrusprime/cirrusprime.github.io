@@ -31,7 +31,6 @@ Here are some _underscores_, which appear to do the same as *asterisks*, and her
     2. Ordered sub-list item
 * More unordered items
 
-
 1. Ordered list
     1. Ordered sub-list
     2. Ordered sub-list item

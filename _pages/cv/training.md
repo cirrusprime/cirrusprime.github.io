@@ -17,7 +17,7 @@ permalink: /cv/training
 04/03/2016 | Statistics for Researchers (Part 1)
 11/03/2016 | Statistics for Researchers (Part 2)
 18/03/2016 | Statistics for Researchers (Part 3)
-04/05/2016 | LaTeX with
+04/05/2016 | `LaTeX` with `natbib` and `BibLaTeX`
 05/05/2016 | Lunchtime Lecture: First Tools for Reproducible Research
 31/05/2016 | Introduction to `MATLAB` (Part 1)
 02/06/2016 | Introduction to `MATLAB` (Part 2)
@@ -31,7 +31,7 @@ permalink: /cv/training
 28/02/2017 | Literature Searching & Databases for Mathematical & Physical Sciences
 01/03/2017 | How Statisticians Quantify Evidence
 06/03/2017 | Insight into Finance Careers: Employer Forum for PhDs and Researchers
-18/03/2017 | Python: the Swiss Army Knife for Researchers
+18/03/2017 | `Python`: the Swiss Army Knife for Researchers
 04/04/2017 | Academic Career Planning
 26/04/2017 | Thinking About Statistics (Part 1)
 03/05/2017 | Thinking About Statistics (Part 2)
@@ -46,10 +46,10 @@ permalink: /cv/training
 08/11/2017 | Bitesize Programming 2: You Are All Programs
 09/11/2017 | CRAE: Careers Evening for Students on the Autistic Spectrum
 15/11/2017 | Bitesize Programming 3: Programming Holy Trinity
-16/11/2017 | Introduction to Research Programming with Python (Part 1)
-23/11/2017 | Introduction to Research Programming with Python (Part 2)
-29/11/2017 | Bitesize Programming 4: `MATLAB` and Python
-30/11/2017 | Introduction to Research Programming with Python (Part 3)
+16/11/2017 | Introduction to Research Programming with `Python` (Part 1)
+23/11/2017 | Introduction to Research Programming with `Python` (Part 2)
+29/11/2017 | Bitesize Programming 4: `MATLAB` and `Python`
+30/11/2017 | Introduction to Research Programming with `Python` (Part 3)
 06/12/2017 | Bitesize Programming 5: Putting Everything Together
-07/12/2017 | Introduction to Research Programming with Python (Part 4)
-14/12/2017 | Introduction to Research Programming with Python (Part 5)
+07/12/2017 | Introduction to Research Programming with `Python` (Part 4)
+14/12/2017 | Introduction to Research Programming with `Python` (Part 5)

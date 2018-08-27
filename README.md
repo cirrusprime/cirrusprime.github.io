@@ -1,5 +1,3 @@
-# `cirrusprime.github.io`
-
 Notes for myself (first-timer here; don't mind me):
 
 ## Default `leap-day` Important Theme Files
