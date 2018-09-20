@@ -26,6 +26,8 @@ const variableName = function(param, otherparam) {
 	return newVariable;
 }
 
+
+
 ## Notes
 
 **Hoisting** is technically allowed in JavaScript, where you can call a function before it's been defined using the `function` keyword, but it's considered *bad practice*, so don't do it!
