@@ -4,11 +4,13 @@ layout: page
 ## Initialising pointers
 
 Initialising a pointer is done with an asterisk:
+
 `int *ptr;` will initialise a pointer, `ptr`, and specifies the data type **of the variable whose address it points to** is an integer.
 
 ## Assigning values to pointers
 
 Typically, you provide a value to your given pointer by assigning it a **referenced** variable, using an ampersand:
+
 `ptr = &var;` will assign the **address in memory** of the existing variable, `var` (as a hexadecimal value), to your pointer, `ptr`.
 
 **Note** that you don’t need to include the asterisk here, which is a point of confusion I’ll get to in a second, because its use in the initialisation is purely to indicate that a pointer is being made.
@@ -24,6 +26,7 @@ Pointers can be used, once assigned, to manipulate variable values, just as if y
 ## Dynamic memory allocation
 
 See, the heap memory allocation, happening at runtime, is initiated using `new`:
+
 `int *ptr2 = new int`, since `new` takes the data type following it, grabs the required memory for such a data type, and returns the address of said grabbed memory. Now, because you hadn’t got a variable predefined in your program to be used in such a way, the *only* way you can access this shiny new `int` is through `ptr2`. Remember, `ptr2` will give the memory address of the new `int`, whereas `*ptr2` will give (or allow you to assign) the new `int`’s value. This is **dynamic memory allocation** in action.
 
 When you’re done using a dynamically-allocated memory address, simply do a `delete ptr2` and it’s gone, freeing up the memory for anything else that needs it next. The pointer itself, though, is stored on the stack, so that isn’t deleted. If you leave that pointer free, and not actually pointing to anything, that makes it a **dangling pointer**. If you declare a pointer and don’t use it until much later in the program, for similar reasons, it might be best to initialise it to `NULL` (a “null pointer”), so at least it’s pointing somewhere and not hovering ominously over your code, threatening to explode it all at any time...
