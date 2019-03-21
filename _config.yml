@@ -32,6 +32,12 @@ collections:
     defaults:
       - values:
           layout: page
+  electronics:
+    output: true
+    permalink: /:collection/:name
+    defaults:
+      - values:
+          layout: page
   javascript:
     output: true
     permalink: /:collection/:name
