@@ -36,7 +36,7 @@ Pointers can be used, once assigned, to manipulate variable values, just as if y
 See, the heap memory allocation, happening at runtime, is initiated using `new`:
 
 ```
-int *ptr2 = new int
+int *ptr2 = new int;
 ```
 
 since `new` takes the data type following it, grabs the required memory for such a data type, and returns the address of said grabbed memory. Now, because you hadn’t got a variable predefined in your program to be used in such a way, the *only* way you can access this shiny new `int` is through `ptr2`. Remember, `ptr2` will give the memory address of the new `int`, whereas `*ptr2` will give (or allow you to assign) the new `int`’s value. This is **dynamic memory allocation** in action.
