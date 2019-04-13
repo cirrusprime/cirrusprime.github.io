@@ -1,6 +1,9 @@
 ---
 layout: page
 ---
+* The reference operator, `&`, is the treasure map.  It says, "here is where you can find the given variable in the computer's memory, at this specific address".
+* The dereference operator, `*`, is the spade.  It says, "right, I've gone to the address given by the treasure map, and I've now dug out the stuff stored there; here you go".
+
 ## Initialising pointers
 
 Initialising a pointer is done with an asterisk:
